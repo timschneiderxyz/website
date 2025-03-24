@@ -1,0 +1,32 @@
+{
+  "name": "website",
+  "description": "My website build with Astro & Tailwind CSS.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Tim Schneider",
+    "twitter": "@timschneiderxyz",
+    "email": "timschneider.xyz@gmail.com",
+    "url": "https://timschneider.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:timschneiderxyz/website.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^3.3.0",
+    "@tailwindcss/vite": "^4.1.4"
+  },
+  "dependencies": {
+    "astro": "^5.7.0",
+    "tailwindcss": "^4.1.4"
+  }
+}

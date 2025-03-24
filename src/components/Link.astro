@@ -1,0 +1,16 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Props = HTMLAttributes<"a"> & {
+  href: string;
+};
+const { href, ...props } = Astro.props;
+---
+
+<a
+  class="group font-semibold text-gray-500 underline underline-offset-2 decoration-zinc-300 dark:decoration-zinc-800 transition-colors hover:text-gray-800 dark:hover:text-gray-200"
+  href={href}
+  target={href.startsWith("http") ? "_blank" : undefined}
+  rel={href.startsWith("http") ? "noreferrer noopener" : undefined}
+  {...props}><slot /></a
+>
