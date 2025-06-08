@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "private": true,
-  "type": "module",
   "author": {
     "name": "Tim Schneider",
     "twitter": "@timschneiderxyz",
@@ -22,11 +21,11 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.4.0",
-    "@tailwindcss/vite": "^4.1.7"
+    "@astrojs/sitemap": "^3.4.1",
+    "@tailwindcss/vite": "^4.1.8"
   },
   "dependencies": {
-    "astro": "^5.7.13",
-    "tailwindcss": "^4.1.7"
+    "astro": "^5.9.1",
+    "tailwindcss": "^4.1.8"
   }
 }
