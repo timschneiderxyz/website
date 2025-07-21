@@ -15,17 +15,21 @@
     "url": "git@github.com:timschneiderxyz/website.git"
   },
   "scripts": {
+    "astro": "astro",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "format": "biome format --write",
+    "lint": "biome lint --write",
+    "check": "biome check --write"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.4.1",
+    "@biomejs/biome": "^2.1.2",
     "@tailwindcss/vite": "^4.1.11"
   },
   "dependencies": {
-    "astro": "^5.10.1",
+    "astro": "^5.12.0",
     "tailwindcss": "^4.1.11"
   }
 }
