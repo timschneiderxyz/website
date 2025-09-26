@@ -32,6 +32,7 @@
       },
       "suspicious": {
         "noConsole": "warn",
+        "noUnknownAtRules": "off",
         "noVar": "error"
       }
     }
@@ -52,6 +53,9 @@
   "overrides": [
     {
       "includes": ["**/*.astro"],
+      "formatter": {
+        "enabled": false
+      },
       "linter": {
         "rules": {
           "correctness": {
