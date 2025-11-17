@@ -11,6 +11,32 @@
   --font-sans: "Geist", "sans-serif";
 }
 
+@layer base {
+  h1,
+  .h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--leading-tight);
+    text-wrap: balance;
+  }
+
+  h2,
+  .h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--leading-tight);
+    text-wrap: balance;
+  }
+
+  h3,
+  .h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--leading-tight);
+    text-wrap: balance;
+  }
+}
+
 @font-face {
   font-family: "Geist";
   src: url("/fonts/geist-regular.woff2") format("woff2");
