@@ -15,12 +15,8 @@ node_modules/
 dist/
 
 # Environment
-.env
-.env.production
-
-# Logs
-npm-debug.log*
-pnpm-debug.log*
+.env*
+!.env.example
 
 # Misc
 .DS_Store

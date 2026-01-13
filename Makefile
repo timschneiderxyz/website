@@ -2,14 +2,6 @@
 dev:
 	@pnpm dev ||:
 
-.PHONY: build
-build:
-	@pnpm build ||:
-
-.PHONY: preview
-preview:
-	@pnpm preview ||:
-
 .PHONY: clean
 clean:
 	rm -rf node_modules/
