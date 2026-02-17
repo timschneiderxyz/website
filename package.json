@@ -19,17 +19,21 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "wrangler": "wrangler",
+    "wrangler:types": "wrangler types src/worker-configuration.d.ts",
     "format": "biome format --write",
     "lint": "biome lint --write",
     "check": "biome check --write"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.6.1",
-    "@biomejs/biome": "^2.3.11",
-    "@tailwindcss/vite": "^4.1.18"
+    "@biomejs/biome": "^2.4.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "wrangler": "^4.66.0"
   },
   "dependencies": {
-    "astro": "^5.16.9",
+    "@astrojs/cloudflare": "^13.0.0-beta.8",
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^6.0.0-beta.13",
     "tailwindcss": "^4.1.18"
   }
 }
