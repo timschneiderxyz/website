@@ -26,14 +26,14 @@
     "check": "biome check --write"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
-    "@tailwindcss/vite": "^4.1.18",
-    "wrangler": "^4.66.0"
+    "@biomejs/biome": "^2.4.4",
+    "@tailwindcss/vite": "^4.2.1",
+    "wrangler": "^4.69.0"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.0.0-beta.8",
-    "@astrojs/sitemap": "^3.7.0",
-    "astro": "^6.0.0-beta.13",
-    "tailwindcss": "^4.1.18"
+    "@astrojs/cloudflare": "13.0.0-beta.10",
+    "@astrojs/sitemap": "3.7.0",
+    "astro": "6.0.0-beta.16",
+    "tailwindcss": "^4.2.1"
   }
 }
