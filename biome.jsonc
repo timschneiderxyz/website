@@ -31,6 +31,9 @@
       }
     }
   },
+  "html": {
+    "experimentalFullSupportEnabled": true
+  },
   "css": {
     "parser": {
       "tailwindDirectives": true
@@ -57,20 +60,6 @@
       },
       "linter": {
         "enabled": false
-      }
-    },
-    {
-      "includes": ["**/*.astro"],
-      "formatter": {
-        "enabled": false
-      },
-      "linter": {
-        "rules": {
-          "correctness": {
-            "noUnusedImports": "off",
-            "noUnusedVariables": "off"
-          }
-        }
       }
     }
   ]
