@@ -8,5 +8,5 @@ clean:
   rm -rf dist/
 
 nuke: clean
-  rm pnpm-lock.yaml
+  rm -f pnpm-lock.yaml
   @pnpm install
