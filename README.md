@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://timschneider.xyz">website</a></h1>
 
 <p align="center">
-  My website build with Astro & Tailwind CSS.
+  My website built with Astro & Tailwind CSS.
 </p>
 
 <p align="center">

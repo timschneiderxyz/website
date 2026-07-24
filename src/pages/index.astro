@@ -4,15 +4,22 @@ import Link from "@/components/Link.astro";
 ---
 
 <BaseLayout>
-  <h1 class="mb-5 text-neutral-950 dark:text-neutral-50">
+  <h1 class="text-neutral-950 dark:text-neutral-50">
     <a href="/">Tim Schneider</a>
   </h1>
-  <p>
-    I'm a developer who enjoys building things that are simple and pleasant to
-    use. I also probably spend way too much time tweaking my <Link
-      href="https://github.com/timschneiderxyz/dotfiles">dotfiles</Link
-    > and <Link href="https://github.com/timschneiderxyz/homelab">homelab</Link>
-    configuration. Other than that, I like taking photos, listening to music and playing
-    video games.
+  <p class="my-5">
+    I'm a developer, husband and father. When I get the chance, I like to unwind
+    by listening to music and playing video games.
   </p>
+  <p class="my-5">Some links you may find interesting:</p>
+  <ul class="pl-5 space-y-1">
+    <li>
+      <Link href="https://github.com/timschneiderxyz/dotfiles">dotfiles</Link> — My
+      configs and macOS setup.
+    </li>
+    <li>
+      <Link href="https://github.com/timschneiderxyz/homelab">homelab</Link> — All
+      the stuff I'm running at home.
+    </li>
+  </ul>
 </BaseLayout>
